@@ -156,3 +156,24 @@ img {
         color:var(--blanco);
     }
 }
+
+.nucleus{
+    margin-top: 3rem;
+}
+
+.nucleus__heading{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+/* buscar todas las clases que finalize con contenedor */
+[class$="__contenedor"]{
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* .nucleus__contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 90%;
+} */
